@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    line-height: 0;
+}
+
+.box {
+    position: relative;
+    margin: 50px auto;
+    width: 800px;
+    height: 800px;
+    background: honeydew;
+    border: 10px solid darkcyan;
+    border-radius: 50%;
+}
+
+.elipse {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: darkcyan;
+    border-radius: 50%;
+    left: 380px;
+    top: 380px;
+}
+
+/* Arrows */
+
+.arrow {
+    position: absolute;
+    width: 6px;
+    height: 220px;
+    background: black;
+    left: 387px;
+    top: 170px;
+    border-radius: 10px;
+
+    animation: move;
+    animation-duration: 43200s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.small-arrow {
+    position: absolute;
+    width: 4px;
+    height: 300px;
+    background: black;
+    left: 388px;
+    top: 90px;
+    border-radius: 10px;
+
+    animation: move-small;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* Keyframes */
+
+@keyframes move {
+    0% {
+        transform: rotate(0);
+        transform-origin: 50% 100% 0;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        transform-origin: 50% 100% 0;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform-origin: 50% 100% 0;
+    }
+    
+}
+
+@keyframes move-small {
+    0% {
+        transform: rotate(0);
+        transform-origin: 50% 100% 0;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        transform-origin: 50% 100% 0;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform-origin: 50% 100% 0;
+    }
+    
+}
+
+/* Elements */
+
+.number1 {
+    position: absolute;
+    left: 349.4px;
+    top: 70px;
+}
+
+.number2 {
+    position: absolute;
+    top: 390px;
+    right: 50px;
+}
+
+.number3 {
+    position: absolute;
+    left: 369.6px;
+    bottom: 70px;
+}
+
+.number4 {
+    position: absolute;
+    top: 390px;
+    left: 50px;
+}
+
+/* Main lines */
+
+.main-line1 {
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background: black;
+    border-radius: 4px;
+    left: 387.5px;
+    top: 6px;
+}
+
+.main-line2 {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background: black;
+    border-radius: 4px;
+    top: 387.5px;
+    right: 6px;
+}
+
+.main-line3 {
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background: black;
+    border-radius: 4px;
+    left: 387.5px;
+    bottom: 6px;
+}
+
+.main-line4 {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background: black;
+    border-radius: 4px;
+    top: 387.5px;
+    left: 6px;
+}
+
+/* Small lines */
+
+.small-line1 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    right: 85px;
+    top: 200px;
+    transform: rotate(60deg);
+}
+
+.small-line2 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    right: 200px;
+    top: 85px;
+    transform: rotate(34deg);
+}
+
+.small-line3 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    right: 85px;
+    bottom: 200px;
+    transform: rotate(-60deg);
+}
+
+.small-line4 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    right: 200px;
+    bottom: 85px;
+    transform: rotate(-34deg);
+}
+
+.small-line5 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    left: 85px;
+    top: 200px;
+    transform: rotate(-60deg);
+}
+
+.small-line6 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    left: 200px;
+    top: 85px;
+    transform: rotate(-34deg);
+}
+
+.small-line7 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    left: 85px;
+    bottom: 200px;
+    transform: rotate(60deg);
+}
+
+.small-line8 {
+    position: absolute;
+    height: 30px;
+    width: 5px;
+    background: black;
+    border-radius: 4px;
+    left: 200px;
+    bottom: 85px;
+    transform: rotate(34deg);
+}
+
+
+
+
+
+
+
+
+
+
